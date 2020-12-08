@@ -1,30 +1,42 @@
 fileFormatVersion: 2
-guid: 4531f79272d314144973c9c75a376229
+guid: be6530bb05781c94b896e64860124171
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 516669394710861168
-    second: Food trails_0
+      213: 5811689497632246707
+    second: enemy_0
   - first:
-      213: 2338434943276889651
-    second: Food trails_1
+      213: 6500605135342105237
+    second: enemy_1
   - first:
-      213: 1334123332396864334
-    second: Food trails_2
+      213: 2841174339310533948
+    second: enemy_2
   - first:
-      213: 5335130845616647882
-    second: Food trails_3
+      213: 770974821233782489
+    second: enemy_3
   - first:
-      213: -8981853556244598948
-    second: Food trails_4
+      213: 2337770276214750940
+    second: enemy_4
   - first:
-      213: -4668800243760660347
-    second: Food trails_5
+      213: -3445991980500898698
+    second: enemy_5
   - first:
-      213: -7195217528448813723
-    second: Food trails_6
+      213: -3001908913876995054
+    second: enemy_6
+  - first:
+      213: -8987060403074578880
+    second: enemy_7
+  - first:
+      213: 2172434681270207251
+    second: enemy_8
+  - first:
+      213: 6858387975981924472
+    second: enemy_9
+  - first:
+      213: 4091661196327413383
+    second: enemy_10
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -66,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,6 +90,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -107,148 +120,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Food trails_0
+      name: enemy_0
       rect:
         serializedVersion: 2
-        x: 210
-        y: 1296
-        width: 180
-        height: 208
+        x: 4
+        y: 104
+        width: 23
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 032909ebaf790244caa175333cd8d37e
-      internalID: 516669394710861168
+      spriteID: 65702a8e6030e4f4285b41c4998183da
+      internalID: 5811689497632246707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Food trails_1
+      name: enemy_1
       rect:
         serializedVersion: 2
-        x: 769
-        y: 1285
-        width: 262
-        height: 231
+        x: 36
+        y: 104
+        width: 23
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e7012b184fe94488d7b5fa6754a408
-      internalID: 2338434943276889651
+      spriteID: 9241afd632500d2498bfdf9656ae26c3
+      internalID: 6500605135342105237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Food trails_2
+      name: enemy_2
       rect:
         serializedVersion: 2
-        x: 161
-        y: 864
-        width: 277
-        height: 273
+        x: 68
+        y: 104
+        width: 23
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 181d62e03db7f37459debf5d71b44cf6
-      internalID: 1334123332396864334
+      spriteID: 621d57bb99d081a478425c13611afa43
+      internalID: 2841174339310533948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Food trails_3
+      name: enemy_3
       rect:
         serializedVersion: 2
-        x: 727
-        y: 864
-        width: 346
-        height: 273
+        x: 4
+        y: 72
+        width: 23
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d217714131550694894d4dad23e7a351
-      internalID: 5335130845616647882
+      spriteID: 7e47b448f377ca2488dfe26aeddb6c21
+      internalID: 770974821233782489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Food trails_4
+      name: enemy_4
       rect:
         serializedVersion: 2
-        x: 106
-        y: 457
-        width: 387
-        height: 287
+        x: 36
+        y: 72
+        width: 23
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52865d79a8653624fb841090455cd38f
-      internalID: -8981853556244598948
+      spriteID: c8d8936fccf7fb24cb64b3568fbd7441
+      internalID: 2337770276214750940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Food trails_5
+      name: enemy_5
       rect:
         serializedVersion: 2
-        x: 671
-        y: 457
-        width: 457
-        height: 287
+        x: 68
+        y: 72
+        width: 23
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57616715b2fde504fbc6715b8f9e08c2
-      internalID: -4668800243760660347
+      spriteID: 2fb602ddebebabf4bbab0b03c8f0244a
+      internalID: -3445991980500898698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Food trails_6
+      name: enemy_6
       rect:
         serializedVersion: 2
-        x: 71
-        y: 32
-        width: 457
-        height: 336
+        x: 4
+        y: 40
+        width: 23
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9ebf422f13224947a046ee287c05d98
-      internalID: -7195217528448813723
+      spriteID: 34038ffc96062ad4486b52a2b07c176f
+      internalID: -3001908913876995054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 40
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4ef654ae1bf27439ba0b39555f60c3
+      internalID: -8987060403074578880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 40
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0b0ffcee97bad47991c29c9b8a52f6
+      internalID: 2172434681270207251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8562a4b4500ae784c86673a9c0b6a40e
+      internalID: 6858387975981924472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 8
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e104fa9dfa795c4e8b0b6b04509d96e
+      internalID: 4091661196327413383
       vertices: []
       indices: 
       edges: []
